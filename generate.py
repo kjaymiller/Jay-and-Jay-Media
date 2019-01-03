@@ -5,7 +5,7 @@ generators.generate()
 
 def index():
     page =  Page(template='index.html').html
-    return generators.write_page('output', 'index', page)
+    return generators.write_page('index', page)
 index()
 
 
