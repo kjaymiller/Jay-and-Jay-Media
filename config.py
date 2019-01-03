@@ -1,8 +1,8 @@
 from collections import namedtuple
 
-SITE_TITLE = "K Jay Miller"
-SITE_SUBTITLE = "The Corner of Automation, Productivity, and Community"
-SITE_URL = "https://kjaymiller.com"
+SITE_TITLE = "Jay and Jay Media"
+SITE_SUBTITLE = ""
+SITE_URL = "https://jayandjay.media"
 AUTHOR = 'KJAYMILLER'
 REGION = 'US/Pacific'
 BASE_PATH = 'content'
@@ -10,9 +10,4 @@ BASE_PATH = 'content'
 # Header Links
 Link = namedtuple('Link', ['title', 'href'])
 HEADER_LINKS = (
-    Link('Automations', '/blog/category/automation'),
-    Link('Blog', '/blog_posts.html'),
-    Link('Newsletter', '/pages/subscribe.html'),
-    Link('Contact','/pages/contact.html'),
-    Link('PIT', 'https://productivityintech.com'),
 )
