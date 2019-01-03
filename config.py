@@ -1,7 +1,7 @@
 from collections import namedtuple
 
 SITE_TITLE = "Jay and Jay Media"
-SITE_SUBTITLE = ""
+SITE_SUBTITLE = "Focus on your Product!"
 SITE_URL = "https://jayandjay.media"
 AUTHOR = 'KJAYMILLER'
 REGION = 'US/Pacific'
