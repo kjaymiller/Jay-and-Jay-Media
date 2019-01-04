@@ -6,7 +6,7 @@ import shutil
 from writer import write_page
 import paginate 
 from pathlib import Path
-from _header_links import HeaderLink
+from _header_links import navLink
 from render_engine.content import (
         BlogPost, 
         MicroBlogPost,
@@ -53,7 +53,6 @@ podcast = path(
         )
 
 PATHS = (pages, blog, podcast, microblog)
-headers = [HeaderLink(link[0], link[1]) for link in config.HEADER_LINKS]
     
 def generate():
     # Remove output directory if it exists
