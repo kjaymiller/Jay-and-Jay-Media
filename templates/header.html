@@ -8,7 +8,9 @@
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         {% for link in config.LINKS %}
       <li class="nav-item">
-        <a class="nav-link" href="{{link.href}}">{{link.title}}</a>
+          <a href="{{link.href}}">
+          {{link.title}}
+          </a>
       </li>
       {% endfor %}
       </ul>

@@ -1,4 +1,12 @@
-from _header_links import navLink
+from dataclasses import dataclass
+
+
+@dataclass
+class LINK:
+    title: str
+    url: str
+
+
 SITE_TITLE = "Jay and Jay Media"
 SITE_SUBTITLE = "Focus on your Product!"
 OWNER = {
@@ -13,10 +21,8 @@ BASE_PATH = 'content'
 OUTPUT_PATH = 'output'
 
 # Header Links
-links = (
-        ('services', 'pages/services'),
-        ('blog', 'blog'),
-        ('Contact', 'pages/contact'),
+LINKS = (
+        LINK('Services', 'pages/services'),
+        LINK('Blog', 'blog'),
+        LINK('Contact', 'pages/contact'),
         )
-
-LINKS = (navLink(link) for link in links)
