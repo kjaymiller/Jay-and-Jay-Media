@@ -25,7 +25,8 @@ OUTPUT_PATH = 'output'
 STATIC_PATH = 'static'
 
 # Header Links
-HEADER_LINKS = (
+LINKS = (
+    Link('Podcasting', '/pages/podcast_services'),
     Link('Newsletter', '/pages/subscribe.html'),
     Link('Contact','/pages/contact.html'),
     )
