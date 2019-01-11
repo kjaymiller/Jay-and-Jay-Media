@@ -11,17 +11,7 @@ pages = ContentPath(
         content_path = 'pages'
         )
 
-blog = ContentPath(
-        name = 'blog',
-        content_type = BlogPost,
-        )
-
-microblog = ContentPath(
-        name = 'microblog',
-        content_type = MicroBlogPost,
-        )
-
-PATHS = (pages, blog, microblog)
+PATHS = ([pages])
 
 generators.generate(PATHS)
 page =  Page(template='index.html').html
