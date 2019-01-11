@@ -4,9 +4,8 @@ Generates the files to build out your HTML Path
 import os
 import shutil
 from writer import write_page
-import paginate 
+import paginate
 from pathlib import Path
-from _header_links import navLink
 from render_engine.content import (
         BlogPost, 
         MicroBlogPost,
@@ -15,70 +14,29 @@ from render_engine.content import (
         )
 from render_engine.feeds import path_crawler
 import config
-from dataclasses import dataclass
 
-@dataclass
-class path:
-    name: str
-    content_type: Page
-    content_path: Path
-    output_path: Path
 
-pages = path(
-        name = 'pages',
-        content_type = Page,
-        content_path = Path('content/pages'),
-        output_path = Path('output/pages'),
-        )
-
-blog = path(
-        name = 'blog',
-        content_type = BlogPost,
-        content_path = Path('content'),
-        output_path = Path('output/blog'),
-        )
-
-microblog = path(
-        name = 'microblog',
-        content_type = MicroBlogPost,
-        content_path = Path('content/microblog'),
-        output_path = Path('output/microblog'),
-        )
-
-podcast = path(
-        name = 'podcast',
-        content_type = PodcastEpisode,
-        content_path = Path('content/podcast'),
-        output_path = Path('output/podcast'),
-        )
-
-PATHS = (pages, blog, podcast, microblog)
-    
-def generate():
+def generate(paths):
     # Remove output directory if it exists
-    if Path('./output').exists():
-        shutil.rmtree('output')
-
-    # Create Output File
-    paths = ('output/microblog', 'output/podcast', 'output/pages')
-
+    try:
+        shutil.rmtree(config.OUTPUT_PATH)
+    except:
+        pass
+    
     # Create Static Files
-    shutil.copytree(Path('./static/'), Path('./output/static/'))
+    shutil.copytree(Path(config.STATIC_PATH),
+            Path(f'{config.OUTPUT_PATH}/{config.STATIC_PATH}')
+            )
 
     for p in paths:
-        Path(p).mkdir(parents=True)
-
-    for p in PATHS:
+        Path(f'{config.OUTPUT_PATH}/{p.output_path}').mkdir(parents=True)
         file_path = p.content_path
         files = path_crawler(item_type=p.content_type, file_path=file_path) 
         for i in files:
-            try: 
-                write_page(p.output_path, i.id, i.html)
-            except:
-                continue
+            write_page(f'{p.output_path}/{i.id}', i.html)
         
         pages = paginate.paginate(files, 10)
-        paginate.write_paginated_pages(pages, 'blog_list.html')
+        paginate.write_paginated_pages(p.name, pages, 'blog_list.html', post_list=files)
 
 if __name__=="__main__":
     generate()
