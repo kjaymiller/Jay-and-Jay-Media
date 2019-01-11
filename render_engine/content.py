@@ -12,7 +12,7 @@ from datetime import datetime
 import arrow
 
 class Page():
-    def __init__(self, base_file=None, template=None):
+    def __init__(self, base_file=None, template='page.html'):
         # self.id looks for us
         self._id = None
         self._slug = None
@@ -20,11 +20,13 @@ class Page():
         # self.date_published looks for us
         self._date_published = None
         self._date = None
-
+        self.base_file = base_file
+        
         if base_file:
-            self.base_file = base_file
             self.from_file(base_file) # creates initial properties and self.content
 
+        temp =  env.get_template(self.template)
+        self.html = temp.render(metadata=self, config=config)
         
     def from_file(self, base_file):
         matcher = r'^\w+:'
@@ -36,58 +38,58 @@ class Page():
                 key = line_data[0].lower()
                 value = line_data[-1].rstrip()
                 setattr(self, f'_{key}', value)
-            self.content = Markup(markdown('\n'.join(md_content).strip()))
+            content = '\n'.join(md_content).strip()
+            self.content = content
+            self.markup = Markup(markdown(content))
 
         self.title = getattr(self, '_title', '')
         self.__str__ = self.content
-
+        temp =  env.get_template(self.template)
+        self.html = temp.render(metadata=self, config=config)
 
     @property
     def id(self):
         return self._id or self._slug or self.base_file.stem
 
-    def get_date_published(self, base_file):
+    @property
+    def date_published(self):
         """Returns the value of _date_published or _date, or created_datetime from
-        the system if not defined. NOTE THE SYSTEM DATE IS KNOWN TO CAUSE
-        ISSUES WITH FILES THAT WERE COPIED OR TRANSFERRED WITHOUT THEIR
-        METADATA BEING TRANSFER READ AS WELL"""
+the system if not defined. NOTE THE SYSTEM DATE IS KNOWN TO CAUSE
+ISSUES WITH FILES THAT WERE COPIED OR TRANSFERRED WITHOUT THEIR
+METADATA BEING TRANSFER READ AS WELL"""
 
-        if hasattr(self, '_date_published'):
+        if self._date_published:
             return self._date_published
-        elif hasattr(self, '_date'):
-            return self._date
-        else:
-             return self.get_ct_time(base_file)
 
-    def get_date_modified(self, base_file):
+        elif '_date':
+            return self._date
+
+        else:
+             return get_ct_time(self.base_file)
+
+    @property
+    def updated(self):
         """Returns the value of _date_modified or _update, or the
 modified_datetime from the system if not defined. NOTE THE SYSTEM 
 DATE IS KNOWN TO CAUSE ISSUES WITH FILES THAT WERE COPIED OR 
 TRANSFERRED WITHOUT THEIR METADADTA BEING TRANSFERRED AS WELL"""
 
-        if hasattr(self, '_date_modified'):
+        if self._date_modified:
             return self._date_modified
         
-        elif hasattr(self, 'updated'):
+        elif self.updated:
             return self._date
-        
-        else:
-            return self._get_mt_time(base_file)
 
-    @property
-    def html(self, template='pages.html'):
-        if self.template:
-            template = self.template
-        temp =  env.get_template(template)
-        return temp.render(metadata=self, config=config)
+        else:
+            return get_mt_time(self.base_file)
+
 
 class BlogPost(Page):
-    def __init__(self, base_file):
-        super().__init__(base_file)
+    def __init__(self, base_file, template='blog.html'):
+        super().__init__(base_file, template=template)
         self.tags = self.get_tags()
-        self.summary = getattr(self, '_summary',
-                self.summary_from_content(self.content)) + '...'
-
+        self.summary = Markup(markdown(getattr(self, '_summary',
+                self.summary_from_content(self.content)) + '...'))
 
     def get_tags(self):
         tags = getattr(self, '_tags', '')
