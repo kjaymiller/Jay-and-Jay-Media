@@ -21,8 +21,4 @@ BASE_PATH = 'content'
 OUTPUT_PATH = 'output'
 
 # Header Links
-LINKS = (
-        LINK('Services', 'pages/services'),
-        LINK('Blog', 'blog'),
-        LINK('Contact', 'pages/contact'),
-        )
+LINKS = ()
