@@ -27,6 +27,5 @@ STATIC_PATH = 'static'
 # Header Links
 LINKS = (
     Link('Podcasting', '/pages/podcast_services'),
-    Link('Newsletter', '/pages/subscribe.html'),
     Link('Contact','/pages/contact.html'),
     )
