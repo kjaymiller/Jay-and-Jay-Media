@@ -24,6 +24,7 @@ CONTENT_PATH = 'content'
 OUTPUT_PATH = 'output'
 STATIC_PATH = 'static'
 
+LOGO = 'static/images/jayandjaymedia.png'
 # Header Links
 LINKS = (
     Link('Podcasting', '/pages/podcast_services'),
