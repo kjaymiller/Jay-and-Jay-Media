@@ -7,7 +7,7 @@ class Link:
 
 
 SITE_TITLE = "Jay and Jay Media"
-SITE_SUBTITLE = "Focus on your Product!"
+SITE_SUBTITLE = "Focus on Creating while we focus on your creativity!"
 SITE_URL = "https://jayandjay.media"
 OWNER = {
         'name': 'Jay Miller',
