@@ -1,3 +1,4 @@
+slug: newsletter-services
 title: Send emails that people will actually read!
 
 Newsletters are regarded as one of the most ways to building an audience.
