@@ -27,6 +27,8 @@ STATIC_PATH = 'static'
 LOGO = 'static/images/jayandjaymedia.png'
 # Header Links
 LINKS = (
-    Link('Podcasting', '/pages/podcast_services'),
+    Link('Podcasting', '/pages/podcast-services'),
+    Link('Newsletters', '/pages/newsletter-services')
+    Link('Community', '/pages/community-services')
     Link('Contact','/pages/contact.html'),
     )
