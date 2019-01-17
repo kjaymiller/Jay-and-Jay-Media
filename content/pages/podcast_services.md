@@ -1,7 +1,7 @@
 Title: A podcast is a way to let your audience know what you're about.
 
 We understand that it's not easy to jump on the mic and make the next big podcast. That's why we are here to help you!
-## Editing (Starting at $45 per hour of RAW (not-edited) content) 
+<h2>Editing <span class="text-light font-italic">(Starting at $45 per hour of RAW (not-edited) content)</span></h2> 
 <small>(minimum $45, rounds up every half hour)</small>
 We take your audio, optimize the sound quality (strip silence and equalize and levelize the content),  reduce the "Ums" and "Ahs" (but leave just enough it so it sounds natural).
 
