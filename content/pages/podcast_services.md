@@ -39,14 +39,16 @@ We can't automate the entire process (pretty darn close though), so we also manu
 </p>
 
 </div>
-<small class="card-footer"> * minimum $30. Rounds up every half hour.i
-</br>Turnaround is 48 hours from Receipt of Content.
+<small class="card-footer"> * minimum $30. Rounds up every half hour.
 </br>$5-off if included with editing.</small>
+</br>Turnaround is 48 hours from Receipt of Content.
 </div>
 </div>
-## Other Services around Podcasting
 
-### Publishing - Starting at $5
+## Here are some other Services around Podcasting
+
+### Publishing 
+*Starting at $5*
 <small>(add-on to <em>Editing</em>, does not include the cost of hosting)</small>
 If you need hosting added to that, we get you setup with either a libsyn (great for hosting just one podcast) or transistor.fm (better for multiple podcasts) account (That you own.) Your price with transistor varies with the popularity of the podcast. We then manage the uploading and show notes.
 
@@ -55,7 +57,8 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 Turnaround is 24 hours from Editing Completion and Approval.
 
 ### Social Media Promotion
-<small>($10 for 5 posts (unlimited channels). Additional Posts are $2/per post.)</small>
+*$10 for 5 posts (unlimited channels).* 
+<small>Additional Posts are $2/per post.)</small>
 After the podcast episode has been released we also can put together a series of tweets to help promote the show. These would have images, quotes from the episode, links to subscribe and any other promotional content you may want. 
 
 </div>
