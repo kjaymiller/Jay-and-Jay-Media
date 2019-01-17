@@ -23,7 +23,9 @@ Finally, we attach your intro/outro music onto it.
 <p>
 </p>
 </div>
-<small class="card-footer font-italic">*minimum $45. Rounds up every half hour. Turnaround for this 72 hours from receiving all materials.</small>
+<small class="card-footer font-italic">*minimum $45.
+</br>Rounds up every half hour.
+</br>Turnaround for this 72 hours from receiving all materials.</small>
 </div>
 
 <div class="card">
@@ -32,13 +34,15 @@ Finally, we attach your intro/outro music onto it.
 <div class="card-body">
 <p>
 We use the Amazon Transcript algorithm to get the baseline of your content. It's great because it can do things like recognize different speakers. Of course, there are a lot of words that don't come standard, we use added word dictionaries to help with that.
-
+</p>
+<p>
 We can't automate the entire process, so we also manually go through each the episode and make any corrections by hand (and add any new dictionary entries as they come up).  
+</p>
 
-Turnaround is 48 hours from Receipt of Content. 
 </div>
-<small class="card-footer"> * minimum $30. Rounds up every half hour.</br>
-$5-off if included with editing.</small>
+<small class="card-footer"> * minimum $30. Rounds up every half hour.i
+</br>Turnaround is 48 hours from Receipt of Content.
+</br>$5-off if included with editing.</small>
 </div>
 </div>
 ## Other Services around Podcasting
