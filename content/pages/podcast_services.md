@@ -4,6 +4,7 @@ We understand that it's not easy to jump on the mic and make the next big podcas
 <div class="jumbotron text-light">
 <h2>Editing <span class="font-italic">(Starting at $45 per hour of RAW (not-edited) content)</span></h2> 
 <small>(minimum $45, rounds up every half hour)</small>
+</div>
 We take your audio, optimize the sound quality (strip silence and equalize and levelize the content),  reduce the "Ums" and "Ahs" (but leave just enough it so it sounds natural).
 
 If you want it the episode cut for length we can also do that (additional cost as it usually requires more back and forth with the customer).
