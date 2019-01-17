@@ -5,15 +5,14 @@ We understand that it's not easy to jump on the mic and make the next big podcas
 
 <div class="card">
 <h2 class="px-2 card-title bg-dark text-light">Editing</h2>
-<div class="card-body">
 <span class="font-italic">Starting at $45 per hour of RAW (not-edited) content</span> 
-
+<div class="card-body">
 <p>
 We take your audio, optimize the sound quality (strip silence and equalize and levelize the content),  reduce the "Ums" and "Ahs" (but leave just enough it so it sounds natural).
 </p>
 
 <p>
-If you want it the episode cut for length we can also do that (additional cost as it usually requires more back and forth with the customer).
+If you want it the episode cut for length we can also do that (<em>additional costs apply</em>).
 </p>
 
 <p>
