@@ -3,7 +3,7 @@ Title: A podcast is a way to let your audience know what you're about.
 We understand that it's not easy to jump on the mic and make the next big podcast. That's why we are here to help you!
 <div class="card-deck">
 <div class="card">
-<h2 class="card-title">Editing</h2>
+<h2 class="card-title bg-dark text-light">Editing</h2>
 <div class="card-body">
 <span class="font-italic">(Starting at $45 per hour of RAW (not-edited) content)</span> 
 
