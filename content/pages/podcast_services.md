@@ -1,6 +1,4 @@
-Title: A Podcast is a great way to share your voice with a new audience!
-
-## A podcast is a way to let your audience know what you're about.
+Title: A podcast is a way to let your audience know what you're about.
 
 We understand that it's not easy to jump on the mic and make the next big podcast. That's why we are here to help you!
 ## Editing (Starting at $45 per hour of RAW (not-edited) content) 
