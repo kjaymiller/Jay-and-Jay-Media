@@ -2,8 +2,10 @@ Title: A podcast is a way to let your audience know what you're about.
 
 We understand that it's not easy to jump on the mic and make the next big podcast. That's why we are here to help you!
 <div class="card-deck">
-<h2 class="card-title">Editing <span class="font-italic">(Starting at $45 per hour of RAW (not-edited) content)</span></h2> 
+<h2 class="card-title">Editing</h2>
+
 <div class="card-body">
+<span class="font-italic">(Starting at $45 per hour of RAW (not-edited) content)</span> 
 <small>(minimum $45, rounds up every half hour)</small>
 
 We take your audio, optimize the sound quality (strip silence and equalize and levelize the content),  reduce the "Ums" and "Ahs" (but leave just enough it so it sounds natural).
