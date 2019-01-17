@@ -15,7 +15,7 @@ If you want it the episode cut for length we can also do that (additional cost a
 Finally, we attach your intro/outro music onto it. Turnaround for this 72 hours from receiving all materials.
 </div>
 </div>
-<d
+
 ## Transcription - $30/hr of transcribed audio 
 <small>(minimum $30. Rounds up every half hour). ($5-off if included with editing)</small>
 We use the Amazon Transcript algorithm to get the baseline of your content. It's great because it can do things like recognize different speakers. Of course with tech podcasts, there are a lot of words that don't come standard, we use an added word dictionary to help with that.
