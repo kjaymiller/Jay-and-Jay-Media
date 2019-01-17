@@ -36,7 +36,7 @@ Finally, we attach your intro/outro music onto it.
 We use the Amazon Transcript algorithm to get the baseline of your content. It's great because it can do things like recognize different speakers. Of course, there are a lot of words that don't come standard, we use added word dictionaries to help with that.
 </p>
 <p>
-We can't automate the entire process, so we also manually go through each the episode and make any corrections by hand (and add any new dictionary entries as they come up).  
+We can't automate the entire process (pretty darn close though), so we also manually go through each the episode and make any corrections by hand (and add any new dictionary entries as they come up).  
 </p>
 
 </div>
