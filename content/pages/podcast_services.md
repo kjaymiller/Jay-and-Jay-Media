@@ -3,6 +3,7 @@ Title: A podcast is a way to let your audience know what you're about.
 We understand that it's not easy to jump on the mic and make the next big podcast. That's why we are here to help you!
 <div class="card-deck">
 <h2 class="card-title">Editing <span class="font-italic">(Starting at $45 per hour of RAW (not-edited) content)</span></h2> 
+<div class="card-body">
 <small>(minimum $45, rounds up every half hour)</small>
 
 We take your audio, optimize the sound quality (strip silence and equalize and levelize the content),  reduce the "Ums" and "Ahs" (but leave just enough it so it sounds natural).
@@ -10,6 +11,7 @@ We take your audio, optimize the sound quality (strip silence and equalize and l
 If you want it the episode cut for length we can also do that (additional cost as it usually requires more back and forth with the customer).
 
 Finally, we attach your intro/outro music onto it. Turnaround for this 72 hours from receiving all materials.
+</div>
 </div>
 ## Transcription - $30/hr of transcribed audio 
 <small>(minimum $30. Rounds up every half hour). ($5-off if included with editing)</small>
