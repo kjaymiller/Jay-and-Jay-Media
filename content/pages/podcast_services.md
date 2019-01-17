@@ -18,7 +18,7 @@ Finally, we attach your intro/outro music onto it. Turnaround for this 72 hours 
 </div>
 
 <div class="card">
-<h2 class="card-title">Transcription</h2>
+<h2 class="card-title bg-dark text-light">Transcription</h2>
 <span class="font-italic">$30/hr of transcribed audio*</span>
 <div class="card-body">
 We use the Amazon Transcript algorithm to get the baseline of your content. It's great because it can do things like recognize different speakers. Of course with tech podcasts, there are a lot of words that don't come standard, we use an added word dictionary to help with that.
