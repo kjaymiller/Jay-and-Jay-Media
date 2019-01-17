@@ -2,10 +2,11 @@ Title: A podcast is a way to let your audience know what you're about.
 
 We understand that it's not easy to jump on the mic and make the next big podcast. That's why we are here to help you!
 <div class="card-deck">
+
 <div class="card">
 <h2 class="card-title bg-dark text-light">Editing</h2>
 <div class="card-body">
-<span class="font-italic">(Starting at $45 per hour of RAW (not-edited) content)</span> 
+<span class="font-italic">Starting at $45 per hour of RAW (not-edited) content</span> 
 
 We take your audio, optimize the sound quality (strip silence and equalize and levelize the content),  reduce the "Ums" and "Ahs" (but leave just enough it so it sounds natural).
 
@@ -15,6 +16,7 @@ Finally, we attach your intro/outro music onto it. Turnaround for this 72 hours 
 </div>
 <small class="card-footer">*minimum $45. Rounds up every half hour.</small>
 </div>
+
 <div class="card">
 <h2 class="card-title">Transcription</h2>
 <span class="font-italic">$30/hr of transcribed audio*</span>
@@ -28,7 +30,9 @@ Turnaround is 48 hours from Receipt of Content.
 <small class="card-footer"> * minimum $30. Rounds up every half hour.</br>
 $5-off if included with editing.</small>
 </div>
-### Other Services around Podcasting
+</div>
+## Other Services around Podcasting
+
 ### Publishing - Starting at $5
 <small>(add-on to <em>Editing</em>, does not include the cost of hosting)</small>
 If you need hosting added to that, we get you setup with either a libsyn (great for hosting just one podcast) or transistor.fm (better for multiple podcasts) account (That you own.) Your price with transistor varies with the popularity of the podcast. We then manage the uploading and show notes.
