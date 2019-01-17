@@ -6,7 +6,6 @@ We understand that it's not easy to jump on the mic and make the next big podcas
 <h2 class="card-title">Editing</h2>
 <div class="card-body">
 <span class="font-italic">(Starting at $45 per hour of RAW (not-edited) content)</span> 
-<small>(minimum $45, rounds up every half hour)</small>
 
 We take your audio, optimize the sound quality (strip silence and equalize and levelize the content),  reduce the "Ums" and "Ahs" (but leave just enough it so it sounds natural).
 
@@ -14,6 +13,7 @@ If you want it the episode cut for length we can also do that (additional cost a
 
 Finally, we attach your intro/outro music onto it. Turnaround for this 72 hours from receiving all materials.
 </div>
+<small class="card-footer">(minimum $45, rounds up every half hour)</small>
 </div>
 
 ## Transcription - $30/hr of transcribed audio 
