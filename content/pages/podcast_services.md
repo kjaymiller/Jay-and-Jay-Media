@@ -2,8 +2,8 @@ Title: A podcast is a way to let your audience know what you're about.
 
 We understand that it's not easy to jump on the mic and make the next big podcast. That's why we are here to help you!
 <div class="card-deck">
+<div class="card">
 <h2 class="card-title">Editing</h2>
-
 <div class="card-body">
 <span class="font-italic">(Starting at $45 per hour of RAW (not-edited) content)</span> 
 <small>(minimum $45, rounds up every half hour)</small>
@@ -15,6 +15,7 @@ If you want it the episode cut for length we can also do that (additional cost a
 Finally, we attach your intro/outro music onto it. Turnaround for this 72 hours from receiving all materials.
 </div>
 </div>
+<d
 ## Transcription - $30/hr of transcribed audio 
 <small>(minimum $30. Rounds up every half hour). ($5-off if included with editing)</small>
 We use the Amazon Transcript algorithm to get the baseline of your content. It's great because it can do things like recognize different speakers. Of course with tech podcasts, there are a lot of words that don't come standard, we use an added word dictionary to help with that.
@@ -36,4 +37,5 @@ Turnaround is 24 hours from Editing Completion and Approval.
 <small>($10 for 5 posts (unlimited channels). Additional Posts are $2/per post.)</small>
 After the podcast episode has been released we also can put together a series of tweets to help promote the show. These would have images, quotes from the episode, links to subscribe and any other promotional content you may want. 
 
+</div>
 *Our [Newsletter Services](./newsletter_services) also Pair well with your podcast!* 
