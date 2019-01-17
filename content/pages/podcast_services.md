@@ -44,9 +44,9 @@ We can't automate the entire process (pretty darn close though), so we also manu
 </br>Turnaround is 48 hours from Receipt of Content.
 </div>
 </div>
-
+-------
 ## Here are some other Services around Podcasting
-
+-------
 ### Publishing 
 *Starting at $5*
 <small>(add-on to <em>Editing</em>, does not include the cost of hosting)</small>
