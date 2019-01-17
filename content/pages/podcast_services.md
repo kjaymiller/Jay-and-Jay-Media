@@ -1,16 +1,16 @@
 Title: A podcast is a way to let your audience know what you're about.
 
 We understand that it's not easy to jump on the mic and make the next big podcast. That's why we are here to help you!
-<div class="jumbotron text-light">
-<h2>Editing <span class="font-italic">(Starting at $45 per hour of RAW (not-edited) content)</span></h2> 
+<div class="card-deck">
+<h2 class="card-title">Editing <span class="font-italic">(Starting at $45 per hour of RAW (not-edited) content)</span></h2> 
 <small>(minimum $45, rounds up every half hour)</small>
-</div>
+
 We take your audio, optimize the sound quality (strip silence and equalize and levelize the content),  reduce the "Ums" and "Ahs" (but leave just enough it so it sounds natural).
 
 If you want it the episode cut for length we can also do that (additional cost as it usually requires more back and forth with the customer).
 
 Finally, we attach your intro/outro music onto it. Turnaround for this 72 hours from receiving all materials.
-
+</div>
 ## Transcription - $30/hr of transcribed audio 
 <small>(minimum $30. Rounds up every half hour). ($5-off if included with editing)</small>
 We use the Amazon Transcript algorithm to get the baseline of your content. It's great because it can do things like recognize different speakers. Of course with tech podcasts, there are a lot of words that don't come standard, we use an added word dictionary to help with that.
