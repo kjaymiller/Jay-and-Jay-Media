@@ -14,7 +14,5 @@ pages = ContentPath(
 PATHS = ([pages])
 
 generators.generate(PATHS)
-
-index =  Page(template='index.html').html
-generators.write_page('index', index)
-
+page =  Page(template='index.html').html
+generators.write_page('index', page)
