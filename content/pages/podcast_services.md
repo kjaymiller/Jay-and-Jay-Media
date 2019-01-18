@@ -4,7 +4,7 @@ We understand that it's not easy to jump on the mic and make the next big podcas
 <div class="card-deck">
 
 <div class="card">
-<h2 class="px-2 card-title bg-dark text-light">Editing</h2>
+<h2 class="p-2 card-title bg-dark text-light">Editing</h2>
 <span class="font-italic">Starting at $45 per hour of RAW (not-edited) content</span> 
 <div class="card-body">
 <p>
@@ -28,7 +28,7 @@ Finally, we attach your intro/outro music onto it.
 </div>
 
 <div class="card">
-<h2 class="px-2 card-title bg-dark text-light">Transcription</h2>
+<h2 class="p-2 card-title bg-dark text-light">Transcription</h2>
 <span class="font-italic">$30/hr of transcribed audio*</span>
 <div class="card-body">
 <p>
