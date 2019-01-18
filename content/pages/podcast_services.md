@@ -67,7 +67,7 @@ After the podcast episode has been released we also can put together a series of
 
 <div class="jumbotron">
 
-### Request a Quote
+<h3>Request a Quote</h3>
 
 <form name="contact" method="POST" data-netlify="true">
   <p>
