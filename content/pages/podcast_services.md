@@ -66,7 +66,9 @@ After the podcast episode has been released we also can put together a series of
 *Our [Newsletter Services](./newsletter_services) also Pair well with your podcast!* 
 
 <div class="jumbotron">
+
 ### Request a Quote
+
 <form name="contact" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
