@@ -65,6 +65,7 @@ After the podcast episode has been released we also can put together a series of
 </div>
 *Our [Newsletter Services](./newsletter_services) also Pair well with your podcast!* 
 
+<div class="jumbotron">
 ### Request a Quote
 <form name="contact" method="POST" data-netlify="true">
   <p>
@@ -77,6 +78,7 @@ After the podcast episode has been released we also can put together a series of
     <label>Message: <textarea name="message"> I'm interested in Podcast Services!</textarea></label>
   </p>
   <p>
-    <button type="submit">Send</button>
+    <button class="btn btn-dark" type="submit">Send</button>
   </p>
 </form>
+</div>
