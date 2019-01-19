@@ -29,6 +29,5 @@ LOGO = 'static/images/jayandjaymedia.png'
 LINKS = (
     Link('Podcasting', '/pages/podcast_services'),
     Link('Newsletter Services','/pages/newsletter_services.html'),
-    Link('Community & Social Media','/pages/community_services.html'),
     Link('Contact','/pages/contact.html'),
     )
