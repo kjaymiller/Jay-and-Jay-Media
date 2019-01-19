@@ -71,13 +71,13 @@ After the podcast episode has been released we also can put together a series of
 
 <form name="contact" method="POST" data-netlify="true">
   <div class="form-group">
-    <label>Your Name: <input style="width:250px;" type="text" name="name" /></label>   
+    <label class="col-sm-2">Your Name: <input style="width:250px;" type="text" name="name" /></label>   
   </div>
   <div class="form-group">
-    <label>Your Email: <input style="width:250px;"  type="email" name="email" /></label>
+    <label class="col-sm-2">Your Email: <input style="width:250px;"  type="email" name="email" /></label>
   </div>
   <div class="form-group">
-    <label>Message: <textarea style="width:250px;" name="message"> I'm interested in Podcast Services!</textarea></label>
+    <label class="col-sm-2">Message: <textarea style="width:250px;" name="message"> I'm interested in Podcast Services!</textarea></label>
   </div>
   <div class="form-group">
     <button class="btn btn-dark" type="submit">Send</button>
