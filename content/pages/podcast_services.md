@@ -70,17 +70,17 @@ After the podcast episode has been released we also can put together a series of
 <h3>Request a Quote</h3>
 
 <form name="contact" method="POST" data-netlify="true">
-  <p>
+  <div class="form-group">
     <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
+  </div>
+  <div class="form-group">
     <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
+  </div>
+  <div class="form-group">
     <label>Message: <textarea name="message"> I'm interested in Podcast Services!</textarea></label>
-  </p>
-  <p>
+  </div>
+  <div class="form-group">
     <button class="btn btn-dark" type="submit">Send</button>
-  </p>
+  </div>
 </form>
 </div>
