@@ -69,8 +69,8 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 	Turnaround is 24 hours from Editing Completion and Approval.
 </p>
 </div>
-<div class="card border-0">
-	<b>Social Media Promotion</b>
+<div class="border-0 card p-2">
+<h4 class="card-title p-1 bg-dark text-light">Social Media Promotion</h4>
 	</br>
 	*$10 for 5 posts (unlimited channels).* 
 	<small>Additional Posts are $2/per post.)</small>
