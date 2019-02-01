@@ -5,7 +5,7 @@ Title: A podcast is a way to let your audience know what you're about. 🎙️
 We understand that it's not easy to jump on the mic and make the next big podcast. That's why we are here to help you!
 <div class="mt-2 card-deck">
 
-<div class="p-3 border-transparent card">
+<div class="p-3 border-0 card">
 <h2 class="p-2 card-title bg-dark text-light">Editing</h2>
 <span class="font-italic">Starting at $45 per hour of RAW (not-edited) content</span> 
 <div class="card-body">
@@ -30,7 +30,7 @@ Finally, we attach your intro/outro music onto it.
 </br>Turnaround for this 72 hours from receiving all materials.</small>
 </div>
 
-<div class="card p-3">
+<div class="border-0 card p-3">
 <h2 class="p-2 card-title bg-dark text-light">Transcription</h2>
 <span class="font-italic">$30/hr of transcribed audio*</span>
 <div class="card-body">
@@ -52,7 +52,7 @@ We can't automate the entire process (pretty darn close though), so we also manu
 <div class="mt-3">
 <h3 class="p-2 text-light bg-dark">Here are some other Services around Podcasting</h3>
 <div class="card-deck">
-<div class="card p-2">
+<div class="border-0 card p-2">
 <h4 class="card-title p-1 bg-dark text-light">Publishing</h4>
 </br>
 <em>Starting at $5</em>
@@ -69,7 +69,7 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 	Turnaround is 24 hours from Editing Completion and Approval.
 </p>
 </div>
-<div class="card">
+<div class="card border-0">
 	<b>Social Media Promotion</b>
 	</br>
 	*$10 for 5 posts (unlimited channels).* 
