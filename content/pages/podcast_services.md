@@ -41,13 +41,14 @@ We can't automate the entire process (pretty darn close though), so we also manu
 </p>
 
 </div>
-<small class="card-footer"> * minimum $30. Rounds up every half hour.
+<small class="card-footer"> * minimum $30.
+</br>Rounds up every half hour.
 </br>$5-off if included with editing.
 </br>Turnaround is 48 hours from Receipt of Content.
 </small>
 </div>
 </div>
-<div>
+<div class="mt-3">
 <h3>Here are some other Services around Podcasting</h3>
 </hr>
 <div>
