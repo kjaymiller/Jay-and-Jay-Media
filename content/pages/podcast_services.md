@@ -53,8 +53,8 @@ We can't automate the entire process (pretty darn close though), so we also manu
 <h3>Here are some other Services around Podcasting</h3>
 </hr>
 <div class="card-deck">
-<div class="card">
-<b>Publishing</b>
+<div class="card p-3">
+<b class="card-title bg-dark text-light">Publishing</b>
 </br>
 <em>Starting at $5</em>
 </br>
