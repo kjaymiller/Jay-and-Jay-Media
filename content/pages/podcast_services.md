@@ -79,6 +79,7 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 	*Our [Newsletter Services](./newsletter_services) also Pair well with your podcast!* 
 </div>
 </div>
+</div>
 <div class="col-md-4 mx-2">
 	<div class="jumbotron">
 
