@@ -48,46 +48,50 @@ We can't automate the entire process (pretty darn close though), so we also manu
 </div>
 </div>
 <div>
-### Here are some other Services around Podcasting
-------
-**Publishing**
+<h3>Here are some other Services around Podcasting</h3>
+</hr>
+<b>Publishing</b>
 
-*Starting at $5*
+<em>Starting at $5</em>
 <small>(add-on to <em>Editing</em>, does not include the cost of hosting)</small>
+<p>
 If you need hosting added to that, we get you setup with either a libsyn (great for hosting just one podcast) or transistor.fm (better for multiple podcasts) account (That you own.) Your price with transistor varies with the popularity of the podcast. We then manage the uploading and show notes.
+</p>
 
+<p>
 If you have your own plan for hosting, we can follow that as well (pricing may vary based on the the complexity but usually it is the same rate)
+</p>
+<p>
+	Turnaround is 24 hours from Editing Completion and Approval.
+</p>
+	**Social Media Promotion**
+k
+	*$10 for 5 posts (unlimited channels).* 
+	<small>Additional Posts are $2/per post.)</small>
+	After the podcast episode has been released we also can put together a series of tweets to help promote the show. These would have images, quotes from the episode, links to subscribe and any other promotional content you may want. 
 
-Turnaround is 24 hours from Editing Completion and Approval.
+	</div>
+	*Our [Newsletter Services](./newsletter_services) also Pair well with your podcast!* 
 
-**Social Media Promotion**
+	</div>
+	<div class="col-md-4 mx-2">
+	<div class="jumbotron">
 
-*$10 for 5 posts (unlimited channels).* 
-<small>Additional Posts are $2/per post.)</small>
-After the podcast episode has been released we also can put together a series of tweets to help promote the show. These would have images, quotes from the episode, links to subscribe and any other promotional content you may want. 
+	<h3>Request a Quote</h3>
 
-</div>
-*Our [Newsletter Services](./newsletter_services) also Pair well with your podcast!* 
-
-</div>
-<div class="col-md-4 mx-2">
-<div class="jumbotron">
-
-<h3>Request a Quote</h3>
-
-<form name="contact" method="POST" data-netlify="true">
-  <div class="form-group">
-    <label class="col-sm-2">Your Name: <input style="width:250px;" type="text" name="name" /></label>   
-  </div>
-  <div class="form-group">
-    <label class="col-sm-2">Your Email: <input style="width:250px;"  type="email" name="email" /></label>
-  </div>
-  <div class="form-group">
-    <label class="col-sm-2">Message: <textarea style="width:250px;" name="message"> I'm interested in Podcast Services!</textarea></label>
-  </div>
-  <div class="form-group">
-    <button class="btn btn-dark" type="submit">Send</button>
-  </div>
-</form>
-</div>
-</div>
+	<form name="contact" method="POST" data-netlify="true">
+	<div class="form-group">
+	<label class="col-sm-2">Your Name: <input style="width:250px;" type="text" name="name" /></label>   
+	</div>
+	<div class="form-group">
+	<label class="col-sm-2">Your Email: <input style="width:250px;"  type="email" name="email" /></label>
+	</div>
+	<div class="form-group">
+	<label class="col-sm-2">Message: <textarea style="width:250px;" name="message"> I'm interested in Podcast Services!</textarea></label>
+	</div>
+	<div class="form-group">
+	<button class="btn btn-dark" type="submit">Send</button>
+	</div>
+	</form>
+	</div>
+	</div>
