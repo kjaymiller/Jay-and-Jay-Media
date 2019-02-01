@@ -51,7 +51,8 @@ We can't automate the entire process (pretty darn close though), so we also manu
 <div class="mt-3">
 <h3>Here are some other Services around Podcasting</h3>
 </hr>
-<div>
+<div class="card-deck">
+<div class="card">
 <b>Publishing</b>
 </br>
 <em>Starting at $5</em>
@@ -68,7 +69,7 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 	Turnaround is 24 hours from Editing Completion and Approval.
 </p>
 </div>
-<div>
+<div class="card">
 	<b>Social Media Promotion</b>
 	</br>
 	*$10 for 5 posts (unlimited channels).* 
@@ -78,6 +79,7 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 </div>
 <div>
 	*Our [Newsletter Services](./newsletter_services) also Pair well with your podcast!* 
+</div>
 </div>
 </div>
 </div>
