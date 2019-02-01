@@ -5,7 +5,7 @@ Title: A podcast is a way to let your audience know what you're about. 🎙️
 We understand that it's not easy to jump on the mic and make the next big podcast. That's why we are here to help you!
 <div class="card-deck">
 
-<div class="card">
+<div class="p-3 card">
 <h2 class="p-2 card-title bg-dark text-light">Editing</h2>
 <span class="font-italic">Starting at $45 per hour of RAW (not-edited) content</span> 
 <div class="card-body">
