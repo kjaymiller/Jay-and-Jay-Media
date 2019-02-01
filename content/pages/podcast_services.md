@@ -47,8 +47,9 @@ We can't automate the entire process (pretty darn close though), so we also manu
 </small>
 </div>
 </div>
-<h3>Here are some other Services around Podcasting</h3>
--------
+<div>
+### Here are some other Services around Podcasting
+------
 **Publishing**
 
 *Starting at $5*
