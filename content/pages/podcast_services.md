@@ -1,5 +1,7 @@
 Title: A podcast is a way to let your audience know what you're about. 🎙️
 
+<div class="row">
+<div class="col-md-7">
 We understand that it's not easy to jump on the mic and make the next big podcast. That's why we are here to help you!
 <div class="card-deck">
 
@@ -45,8 +47,7 @@ We can't automate the entire process (pretty darn close though), so we also manu
 </small>
 </div>
 </div>
--------
-### Here are some other Services around Podcasting
+<h3>Here are some other Services around Podcasting</h3>
 -------
 **Publishing**
 
@@ -67,6 +68,8 @@ After the podcast episode has been released we also can put together a series of
 </div>
 *Our [Newsletter Services](./newsletter_services) also Pair well with your podcast!* 
 
+</div>
+<div class="col-md-4 mx-2">
 <div class="jumbotron">
 
 <h3>Request a Quote</h3>
@@ -85,4 +88,5 @@ After the podcast episode has been released we also can put together a series of
     <button class="btn btn-dark" type="submit">Send</button>
   </div>
 </form>
+</div>
 </div>
