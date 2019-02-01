@@ -50,7 +50,7 @@ We can't automate the entire process (pretty darn close though), so we also manu
 </div>
 </div>
 <div class="mt-3">
-<h3 class="px-2 text-light bg-dark">Here are some other Services around Podcasting</h3>
+<h3 class="p-2 text-light bg-dark">Here are some other Services around Podcasting</h3>
 <div class="card-deck">
 <div class="card p-2">
 <h4 class="card-title p-1 bg-dark text-light">Publishing</h4>
