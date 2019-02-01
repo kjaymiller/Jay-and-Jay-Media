@@ -50,11 +50,11 @@ We can't automate the entire process (pretty darn close though), so we also manu
 </div>
 </div>
 <div class="mt-3">
-<h3>Here are some other Services around Podcasting</h3>
+<h3 class="bg-dark">Here are some other Services around Podcasting</h3>
 </hr>
 <div class="card-deck">
 <div class="card p-3">
-<b class="card-title bg-dark text-light">Publishing</b>
+<h4 class="card-title bg-dark text-light">Publishing</h4>
 </br>
 <em>Starting at $5</em>
 </br>
