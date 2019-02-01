@@ -27,7 +27,7 @@ DEFAULT_POST_BANNER = ''
 LOGO = 'static/images/jayandjaymedia.png' 
 
 HEADER_LINKS = (
-    Link(name='Podcasting', url='/pages/podcast_services'),
-    Link(name='Newsletter Services', url='/pages/newsletter_services.html'),
-    Link(name='Contact', url='/pages/contact.html'),
+    Link(name='Podcasting', url='/podcast_services'),
+    Link(name='Newsletter Services', url='/newsletter_services.html'),
+    Link(name='Contact', url='/contact.html'),
     )
