@@ -50,6 +50,7 @@ We can't automate the entire process (pretty darn close though), so we also manu
 <div>
 <h3>Here are some other Services around Podcasting</h3>
 </hr>
+<div>
 <b>Publishing</b>
 </br>
 <em>Starting at $5</em>
@@ -65,17 +66,20 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 <p>
 	Turnaround is 24 hours from Editing Completion and Approval.
 </p>
+</div>
+<div>
 	<b>Social Media Promotion</b>
 	</br>
 	*$10 for 5 posts (unlimited channels).* 
 	<small>Additional Posts are $2/per post.)</small>
 	After the podcast episode has been released we also can put together a series of tweets to help promote the show. These would have images, quotes from the episode, links to subscribe and any other promotional content you may want. 
 
-	</div>
+</div>
+<div>
 	*Our [Newsletter Services](./newsletter_services) also Pair well with your podcast!* 
-
-	</div>
-	<div class="col-md-4 mx-2">
+</div>
+</div>
+<div class="col-md-4 mx-2">
 	<div class="jumbotron">
 
 	<h3>Request a Quote</h3>
