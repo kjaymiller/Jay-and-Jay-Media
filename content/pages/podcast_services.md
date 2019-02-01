@@ -24,12 +24,13 @@ Finally, we attach your intro/outro music onto it.
 <p>
 </p>
 </div>
-<small class="card-footer font-italic">*minimum $45.
+<small class="card-footer font-italic">
+* minimum $45.
 </br>Rounds up every half hour.
 </br>Turnaround for this 72 hours from receiving all materials.</small>
 </div>
 
-<div class="card">
+<div class="card p-3">
 <h2 class="p-2 card-title bg-dark text-light">Transcription</h2>
 <span class="font-italic">$30/hr of transcribed audio*</span>
 <div class="card-body">
