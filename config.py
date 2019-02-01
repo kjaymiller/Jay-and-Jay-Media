@@ -1,10 +1,4 @@
-from dataclasses import dataclass
-
-@dataclass
-class Link:
-    title: str
-    url: str
-
+from links import Link
 
 SITE_TITLE = "Jay and Jay Media"
 SITE_SUBTITLE = "Focus on Creating while we focus on your creativity!"
@@ -24,10 +18,16 @@ CONTENT_PATH = 'content'
 OUTPUT_PATH = 'output'
 STATIC_PATH = 'static'
 
-LOGO = 'static/images/jayandjaymedia.png'
-# Header Links
-LINKS = (
-    Link('Podcasting', '/pages/podcast_services'),
-    Link('Newsletter Services','/pages/newsletter_services.html'),
-    Link('Contact','/pages/contact.html'),
+TIME_FORMAT = 'MMMM DD, YYYY HH:mm'
+ICON = ''
+FAVICON = ''
+DEFAULT_POST_IMAGE = ''
+DEFAULT_POST_BANNER = ''
+
+LOGO = 'static/images/jayandjaymedia.png' 
+
+HEADER_LINKS = (
+    Link(name='Podcasting', url='/pages/podcast_services'),
+    Link(name='Newsletter Services', url='/pages/newsletter_services.html'),
+    Link(name='Contact', url='/pages/contact.html'),
     )

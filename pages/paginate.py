@@ -1,5 +1,5 @@
 from itertools import zip_longest
-from render_engine import env
+from environment import env
 from writer import write_page
 import config
 
@@ -7,10 +7,11 @@ def paginate(iterable, items_per_page, fillvalue=None):
     "Collect data into fixed-length chunks or blocks"
     # grouper('ABCDEFG', 3, 'x') --> ABC DEF Gxx"
     args = [iter(iterable)] * items_per_page
-    return zip_longest(*args, fillvalue=fillvalue) 
+    iterable = zip_longest(*args, fillvalue=fillvalue) 
+    return iterable
 
-def write_paginated_pages(name, pagination, template, **kwargs):
+def write_paginated_pages(name, pagination, template, path, **kwargs):
     temp =  env.get_template(template)
     for block in enumerate(pagination):
-        render = temp.render(block=block[1], config=config, **kwargs)
-        write_page(f'{name}_{block[0]}', render)
+        render = temp.render(post_list=[b for b in block[1] if b], config=config, **kwargs)
+        write_page(f'{path}/{name}_{block[0]}.html', render)
