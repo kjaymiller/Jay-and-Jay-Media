@@ -81,7 +81,7 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 </div>
 </div>
 </div>
-<div class="col-md-4 mx-2">
+<div class="col-md-4 mx-2 mt-5">
 	<div class="jumbotron">
 
 	<h3>Request a Quote</h3>
