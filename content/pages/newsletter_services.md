@@ -1,4 +1,6 @@
 title: Send emails that people will actually read!
+template: services.html
+quote_form: I'm interested in Newsletter Services!
 
 Newsletters are regarded as one of the most ways to building an audience.
 
