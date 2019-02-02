@@ -57,6 +57,7 @@ We can't automate the entire process (pretty darn close though), so we also manu
 </br>
 <em>Starting at $5</em>
 </br>
+
 <small>(add-on to <em>Editing</em>, does not include the cost of hosting)</small>
 <p>
 If you need hosting added to that, we get you setup with either a libsyn (great for hosting just one podcast) or transistor.fm (better for multiple podcasts) account (That you own.) Your price with transistor varies with the popularity of the podcast. We then manage the uploading and show notes.
