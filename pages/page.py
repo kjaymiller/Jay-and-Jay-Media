@@ -15,7 +15,7 @@ def get_md_time(md_file):
             tzinfo=config.REGION).format(config.TIME_FORMAT)
 
 class Page():
-    def __init__(self, base_file=None, _template='page.html', template=None, **kwargs):
+    def __init__(self, base_file=None, template='page.html', **kwargs):
         # self.id looks for us
         self._id = None
         self._slug = None
@@ -23,9 +23,9 @@ class Page():
         self._date_modified = None
         self._category = 'Uncategorized'
         self._image = None
-
+        
         if template:
-            _template = template
+            self._template = template
 
         # self.date_published looks for us
         self._date = None
@@ -36,12 +36,11 @@ class Page():
         if base_file:
             content = self.from_file(base_file) # creates initial properties and self.content
             self.markup = Markup(markdown(self.content))
-
-        temp =  env.get_template(_template)
-        self.html = temp.render(metadata=self, config=config, **kwargs)
+        temp =  env.get_template(self._template)
         self.title = getattr(self, '_title', '')
         self.date_published = self.get_date_published()
         self.date_modified = self.get_date_modified()
+        self.html = temp.render(metadata=self, config=config, **kwargs)
 
         
     def from_file(self, base_file):

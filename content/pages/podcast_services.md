@@ -79,11 +79,3 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 	After the podcast episode has been released we also can put together a series of tweets to help promote the show. These would have images, quotes from the episode, links to subscribe and any other promotional content you may want. 
 
 </div>
-<div>
-	*Our [Newsletter Services](./newsletter_services) also Pair well with your podcast!* 
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-4 mx-2 mt-5">
-	</div>
