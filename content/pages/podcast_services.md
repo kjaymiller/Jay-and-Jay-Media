@@ -80,4 +80,3 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 </div>
 </div>
 </div>
-</div>
