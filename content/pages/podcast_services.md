@@ -1,4 +1,6 @@
 Title: A podcast is a way to let your audience know what you're about. 🎙️
+quote_form: I'm interested in Podcast Services!
+template: services.html
 
 <div class="col-md-7">
 We understand that it's not easy to jump on the mic and make the next big podcast. That's why we are here to help you!
@@ -84,22 +86,4 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 </div>
 </div>
 <div class="col-md-4 mx-2 mt-5">
-	<div class="jumbotron">
-
-	<h3>Request a Quote</h3>
-
-	<form name="contact" method="POST" data-netlify="true">
-	<div class="form-group">
-	<label class="col-sm-2">Your Name: <input style="width:250px;" type="text" name="name" /></label>   
-	</div>
-	<div class="form-group">
-	<label class="col-sm-2">Your Email: <input style="width:250px;"  type="email" name="email" /></label>
-	</div>
-	<div class="form-group">
-	<label class="col-sm-2">Message: <textarea style="width:250px;" name="message"> I'm interested in Podcast Services!</textarea></label>
-	</div>
-	<div class="form-group">
-	<button class="btn btn-dark" type="submit">Send</button>
-	</div>
-	</form>
 	</div>
