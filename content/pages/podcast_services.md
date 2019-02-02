@@ -2,7 +2,6 @@ Title: A podcast is a way to let your audience know what you're about. 🎙️
 quote_form: I'm interested in Podcast Services!
 template: services.html
 
-<div class="col-md-7">
 We understand that it's not easy to jump on the mic and make the next big podcast. That's why we are here to help you!
 <div class="mt-2 card-deck">
 
