@@ -1,6 +1,5 @@
 Title: A podcast is a way to let your audience know what you're about. 🎙️
 
-<div class="row">
 <div class="col-md-7">
 We understand that it's not easy to jump on the mic and make the next big podcast. That's why we are here to help you!
 <div class="mt-2 card-deck">
@@ -103,5 +102,4 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 	<button class="btn btn-dark" type="submit">Send</button>
 	</div>
 	</form>
-	</div>
 	</div>
