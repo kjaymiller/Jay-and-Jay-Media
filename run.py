@@ -5,6 +5,7 @@ from pathlib import Path
 from pages.paginate import write_paginated_pages
 from pages import (
         Page,
+        BlogPost,
         Collection,
         )
 
@@ -17,6 +18,8 @@ shutil.rmtree(Path(config.OUTPUT_PATH))
 gen_static()
 
 page = Collection(name='pages', content_type=Page, content_path='pages')
+blog = Collection(name='blog', content_type=BlogPost, output_path='blog')
+
 page.output_path.mkdir(parents=True, exist_ok=True)
 for page_content in page.pages:
     write_page(f'{page.output_path}/{page_content.id}.html', page_content.html)
