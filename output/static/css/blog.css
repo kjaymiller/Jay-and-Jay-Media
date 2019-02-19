@@ -2,6 +2,8 @@ article img {
 	max-width: 33%;
 }
 
+p img { text-align: center;}
+
 article {
 	margin: auto;
 }
