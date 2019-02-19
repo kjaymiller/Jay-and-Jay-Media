@@ -10,8 +10,8 @@ from pages import (
         Collection,
         )
 
-from generators import gen_static
-from writer import write_page, writer
+from pages.generators import gen_static
+from pages.writer import write_page, writer
 
 
 

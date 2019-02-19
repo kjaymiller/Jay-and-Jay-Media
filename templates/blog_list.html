@@ -4,21 +4,18 @@
     <div class="jumbotron border-bottom bg-transparent">
         <h2 class="display-4 text-dark">Blog</h2>
     </div>
-    <div class="card-columns">
-        {% for post in title_list %}
-        <div class="card">
-            <a href="blog/{{post}}.html">
-                <div style="overflow:hidden;">
-            {% if 'featured_image' in post %}
-                    <img class="card-img-top" src="{{json_object[post]['featured_image']}}">
-            {% endif %}
-                </div>
-                <div class="card-body">
-			<h2>{{json_object[post]['title']}}</h2>
-                    {{json_object[post]['summary']}}
-                </div>
-                <div class="card-footer text-right"><small>{{json_object[post]['created']}}</small></div>
-        </div>
+    <div >
+        {% for post in post_list %}
+	<div class="card my-2 px-3">
+		<div class="card-title">
+            <a href="./{{post.id}}.html"><h2>{{post.title}}</h2></a>
+		</br>
+		<small class="text-dark">{{post.date_published}}</small>
+		</div>
+		<div class="card-body">
+        	{{post.summary}}
+		</div>
+	</div>
         {% endfor %}
     </div>
 </div>
