@@ -24,6 +24,10 @@ page.output_path.mkdir(parents=True, exist_ok=True)
 for page_content in page.pages:
     write_page(f'{page.output_path}/{page_content.id}.html', page_content.html)
 
+blog.output_path.mkdir(parents=True, exist_ok=True)
+for page_content in blog.pages:
+    write_page(f'{page.output_path}/{page_content.id}.html', page_content.html)
+
 @writer(route='index.html')
 def index():
     return Page(template='index.html').html
