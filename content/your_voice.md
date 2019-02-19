@@ -1,4 +1,8 @@
-title: Understanding your in 
+title: Understanding your Voice with your Content
+date: February 19, 2019 09:13
+category: creating
+tags: tone
+
 ## When you are creating content, what is your voice? 
 
 Content creators, over time develop a "sound" in their content. 
