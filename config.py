@@ -9,6 +9,8 @@ OWNER = {
         }
 
 AUTHOR = 'KJAYMILLER'
+AUTHOR_IMAGE = ''
+AUTHOR_URL = 'https://kjaymiller.com'
 REGION = 'US/Pacific'
 BASE_PATH = 'content'
 OUTPUT_PATH = 'output'

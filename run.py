@@ -1,3 +1,4 @@
+import json
 import config
 from generators import gen_static 
 import shutil
@@ -20,22 +21,49 @@ gen_static()
 page = Collection(name='pages', content_type=Page, content_path='pages')
 blog = Collection(name='blog', content_type=BlogPost, output_path='blog')
 
-page.output_path.mkdir(parents=True, exist_ok=True)
-for page_content in page.pages:
-    write_page(f'{page.output_path}/{page_content.id}.html', page_content.html)
-
-blog.output_path.mkdir(parents=True, exist_ok=True)
-for page_content in blog.pages:
-    write_page(f'{page.output_path}/{page_content.id}.html', page_content.html)
+page_collections = page, blog 
+for collection in page_collections:
+    collection.output_path.mkdir(parents=True, exist_ok=True)
+    for page in collection.pages:
+        write_page(f'{collection.output_path}/{page.id}.html', page.html)
 
 def pagination():
-    page_groups = blog, microblog
-    for page in page_groups:
-        write_paginated_pages(page.name, page.paginate, path=page.output_path, template='blog_list.html')
+    write_paginated_pages(blog.name, blog.paginate, path=blog.output_path, template='blog_list.html')
 
 
 @writer(route='index.html')
 def index():
     return Page(template='index.html').html
 
+def feed_gen():
+    with open(f'{blog.output_path}/{blog.name}.json', 'w') as fp:
+        json.dump(blog.json_feed, fp)
+
+    with open(f'{blog.output_path}/{blog.name}.rss', 'w') as rss:
+        rss.write(blog.rss_feed)
+
+def categorization():
+    category_filename = f'{blog.output_path}/categories'
+    category_path = Path(category_filename)
+    category_path.mkdir(parents=True, exist_ok=True)
+    write_page(f'{category_path}/all.html', Page(template='categories.html',
+        topic_list=[c for c in blog.categories]).html)
+
+    for category in blog.categories:
+        write_page(f'{category_path}/{category}.html',
+                Page(template='blog_list.html',
+                    post_list=blog.categories[category], output_path=blog.output_path).html)
+    
+    tag_path = Path(f'{blog.output_path}/tag')
+    tag_path.mkdir(parents=True, exist_ok=True)
+    write_page(f'{tag_path}/all.html', Page(template='categories.html',
+        topic_list=[t for t in blog.tags]).html)
+    for tag in blog.tags:
+        write_page(f'{tag_path}/{tag}.html', Page(template='blog_list.html',
+            post_list=blog.categories[category], output_path=blog.output_path).html)
+
+
+categorization()
+pagination()
+feed_gen()
 index()
