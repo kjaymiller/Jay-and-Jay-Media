@@ -3,7 +3,7 @@ date: February 19, 2019 09:13
 category: creating
 tags: tone
 
-## When you are creating content, what is your voice? 
+**When you are creating content, what is your voice?** 
 
 Content creators, over time develop a "sound" in their content. 
 
@@ -13,16 +13,16 @@ I notice when I interview guests for the [Productivity in Tech Podcast][0] , the
 
 Even before the interview, I'm relaxed and more *casual*. This helps my guests feel more relaxed. 
 
-### But it doesn't stop there...
+_But it doesn't stop there..._
 
 * If I'm teaching someone something, I go into my "Instructor Voice". 
 * When I'm promoting something, I go into my "excited to bring this product to you" voice. 
 
 Many of the content creators that I see are not effectively presenting their creation with the proper voice. They all sound like Ben Stein taking role. 
 
-New Product Launch --  "Bueller"
-Podcast interview -- "Bueller"
-Technical Post -- "Bueller"
+- New Product Launch --  "Bueller"
+- Podcast interview -- "Bueller"
+- Technical Post -- "Bueller"
 
 ![](https://media3.giphy.com/media/MkxZKy77sWoEw/giphy.gif)
 
