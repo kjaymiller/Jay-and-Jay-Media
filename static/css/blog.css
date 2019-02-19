@@ -2,7 +2,7 @@ article img {
 	max-width: 33%;
 }
 
-p img { text-align: center;}
+article p {margin: 2em 0;}
 
 article {
 	margin: auto;
