@@ -27,7 +27,7 @@ Many of the content creators that I see are not effectively presenting their cre
 ![](https://media3.giphy.com/media/MkxZKy77sWoEw/giphy.gif)
 
 
-## Here are a few ways that you can improve on your *voice*:
+**Here are a few ways that you can improve on your *voice*:**
 
 ### 1.  Who is your audience?
 
