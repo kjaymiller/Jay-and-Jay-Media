@@ -1,5 +1,7 @@
 article img {
-
 	max-width: 33%;
+}
+
+article {
 	margin: auto;
 }
