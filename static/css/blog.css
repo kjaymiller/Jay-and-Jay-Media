@@ -5,6 +5,7 @@ article img {
 article p {margin: 2em 0;}
 
 article {
+	font-size: 1.4em;
 	margin: auto;
 	line-height: 1.6;
 	letter-spacing: 1.5px;
