@@ -87,6 +87,8 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 
 </div>
 
+</div>
+<div class="jumbotron">
 <form name="contact" method="POST" class="w-75" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
@@ -101,3 +103,4 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
     <button type="submit">Send</button>
   </p>
 </form>
+</div>
