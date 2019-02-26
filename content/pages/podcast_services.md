@@ -48,9 +48,12 @@ We can't automate the entire process (pretty darn close though), so we also manu
 </br>Turnaround is 48 hours from Receipt of Content.
 </small>
 </div>
+
 </div>
+
 <div class="mt-3">
 <h3 class="p-2 text-light bg-dark">Here are some other Services around Podcasting</h3>
+
 <div class="card-deck">
 <div class="border-0 card p-2">
 <h4 class="card-title p-1 bg-dark text-light">Publishing</h4>
@@ -70,6 +73,7 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 	Turnaround is 24 hours from Editing Completion and Approval.
 </p>
 </div>
+
 <div class="border-0 card p-2">
 <h4 class="card-title p-1 bg-dark text-light">Social Media Promotion</h4>
 	</br>
@@ -78,5 +82,28 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 	After the podcast episode has been released we also can put together a series of tweets to help promote the show. These would have images, quotes from the episode, links to subscribe and any other promotional content you may want. 
 
 </div>
+
 </div>
+
 </div>
+
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
