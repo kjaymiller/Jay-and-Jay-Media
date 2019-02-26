@@ -4,7 +4,7 @@ Date: February 26, 2019 08:56
 
 *Do People Even Listen?*
 
-Earlier this week I ask people for help coming up with a companion for my notebook for maintaining checklists. I told them I wanted something simple that wasn't an entire task management tool. 
+Earlier this week I asked people to help me come up with a companion to my notebook for maintaining checklists. I told them I wanted something simple that wasn't an entire task management tool. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I want an app that just gives me a simplified checklists to strike-through. <br><br>Any ideas?<br><br>Not looking for a task manager or project/life manager. <br><br>A lists of tasks that are either all completed or the thing I’m doing is not done.</p>&mdash; Jay Miller (@kjaymiller) <a href="https://twitter.com/kjaymiller/status/1100270567872028672?ref_src=twsrc%5Etfw">February 26, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
