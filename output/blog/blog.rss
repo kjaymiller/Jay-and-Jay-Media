@@ -5,6 +5,7 @@
 <title>Jay and Jay Media</title>
 <description>Focus on Creating while we focus on your creativity!</description>
 <link>https://jayandjay.media</link>
+<atom:link href="https://jayandjay.media/blog/blog.rss" rel="self" type="application/rss+xml" />
 
 <item>
 <title>Understanding your Voice with your Content</title>
