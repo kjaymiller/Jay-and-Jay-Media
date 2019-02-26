@@ -87,7 +87,7 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 
 </div>
 
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" class="w-75" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
