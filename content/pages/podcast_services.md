@@ -90,7 +90,7 @@ If you have your own plan for hosting, we can follow that as well (pricing may v
 </div>
 <div class="jumbotron">
 <h2>Interested? Let us Know</h2>
-<form name="contact" method="POST" class="w-75" data-netlify="true">
+<form name="contact" method="POST" class="w-75" style="margin: auto" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
