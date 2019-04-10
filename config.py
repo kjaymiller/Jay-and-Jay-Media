@@ -30,7 +30,5 @@ LOGO = 'static/images/jayandjaymedia.png'
 
 HEADER_LINKS = (
     Link(name='Blog', url='/blog/blog_0'),
-    Link(name='Podcasting', url='/podcast_services'),
-    Link(name='Newsletter Services', url='/newsletter_services.html'),
     Link(name='Contact', url='/contact.html'),
     )
