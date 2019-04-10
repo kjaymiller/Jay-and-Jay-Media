@@ -3,47 +3,43 @@
 {% block content%}
 <!--Start Jumbotron  -->
 <div class="container">
-<div class="col-md-4" style="padding-top: 6rem;"> 
-        <img style="max-width: 100%;" src="{{config.LOGO}}">
-</div>
-<div class="p-5">
-		<h3 class="font-italic"> 
-              </em>helps creators get started with creating! </h3> 
-</div>
-<div class="row card-deck">
+  <div class="col-md-4" style="padding-top: 6rem;"> 
+    <img style="max-width: 100%;" src="{{config.LOGO}}">
+  </div>
+  <div class="p-5">
+    <h3 class="font-italic"> 
+      </em>helps creators get started with creating! </h3> 
+  </div>
+  <div class="row card-deck">
     {% for link in links %}
     <div class="card border-0">
       <a href="{{link.url}}
-      <h3 class="card-title">{{link.name}}</h3>
-      <img class="card-img" src="{{link.image}}">
+        <h3 class="card-title">{{link.name}}</h3>
+        <img class="card-img" src="{{link.image}}">
       </a>
     </div>
     {% endfor %}
-		</div>
+  </div>
 
-	</div>
-	</div>        
-<div class="col-lg-12 py-3 text-right">
-        <form
-			action="https://buttondown.email/api/emails/embed-subscribe/jayandjaymedia"
-			method="post"
-			target="popupwindow"
-			onsubmit="window.open('https://buttondown.email/jayandjaymedia', 'popupwindow')"
-			class="embeddable-buttondown-form">
-			<h4 class="font-italic font-weight-strong "> Learn why you can trust us with managing your media! </h4> <input type="email"
-			name="email"
-			placeholder="Email"
-			id="bd-email">
-			<input type="hidden"
-			value="1"
-			name="embed" />
-			<input class="btn btn-primary my-2"
-			type="submit"
-			value="Subscribe" />
-	</form>
-	</div>
-        </div>
+  <div class="col-lg-12 py-3 text-right">
+    <form
+    action="https://buttondown.email/api/emails/embed-subscribe/jayandjaymedia"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.email/jayandjaymedia', 'popupwindow')"
+    class="embeddable-buttondown-form">
+      <h4 class="font-italic font-weight-strong "> Learn why you can trust us with managing your media! </h4> <input type="email"
+      name="email"
+      placeholder="Email"
+      id="bd-email">
+      <input type="hidden"
+      value="1"
+      name="embed" />
+      <input class="btn btn-primary my-2"
+      type="submit"
+      value="Subscribe" />
+    </form>
+  </div>
 </div>
-        </div>
 {% endblock %}
 
