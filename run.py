@@ -39,6 +39,11 @@ def index():
                 url="productivityintech.transistor.fm",
                 image="https://s3-us-west-2.amazonaws.com/kjaymiller/images/pit-podcast.png",
                 ), 
+            Link(
+                name=".Net Core Show",
+                url="https://dotnetcore.show",
+                image="https://dotnetcore.show/content/images/2018/08/jamie-taylor-logo-podcast.svg"
+                )
                 )
     return Page(template='index.html', links=links).html
 
