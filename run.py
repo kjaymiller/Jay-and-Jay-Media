@@ -4,6 +4,7 @@ from generators import gen_static
 import shutil
 from pathlib import Path
 from pages.paginate import write_paginated_pages
+from links import Link
 from pages import (
         Page,
         BlogPost,
@@ -33,7 +34,12 @@ def pagination():
 
 @writer(route='index.html')
 def index():
-    return Page(template='index.html').html
+    links = (Link(
+                name="Productivity In Tech",
+                url="productivityintech.transistor.fm",
+                image="https://s3-us-west-2.amazonaws.com/kjaymiller/images/pit-podcast.png",
+                )
+    return Page(template='index.html', links=links).html
 
 def feed_gen():
     with open(f'{blog.output_path}/{blog.name}.json', 'w') as fp:
