@@ -39,6 +39,7 @@ def index():
                 url="productivityintech.transistor.fm",
                 image="https://s3-us-west-2.amazonaws.com/kjaymiller/images/pit-podcast.png",
                 )
+                )
     return Page(template='index.html', links=links).html
 
 def feed_gen():
