@@ -36,7 +36,7 @@ def pagination():
 def index():
     links = (Link(
                 name="Productivity In Tech",
-                url="productivityintech.transistor.fm",
+                url="https://productivityintech.transistor.fm",
                 image="https://s3-us-west-2.amazonaws.com/kjaymiller/images/pit-podcast.png",
                 ), 
             Link(
@@ -46,7 +46,7 @@ def index():
                 ),
             Link(
                 name="Ask A Brit",
-                url="askabrit.transistor.fm",
+                url="https://askabrit.transistor.fm",
                 image="https://kjaymiller.s3-us-west-2.amazonaws.com/images/AskABritv4.png"
                 )
                 )
